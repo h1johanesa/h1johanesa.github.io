@@ -1,0 +1,102 @@
+/*********** BADGE *****************/
+.label {
+    background: #3b9ff4 !important;
+}
+.badge {
+    background-color: #ffad13 !important;
+}
+/************** SEARCH - GROUP ***************/
+.input-group-addon {
+    border-radius: 0px !important;
+    background: transparent !important;
+    border: 0px solid transparent !important;
+}
+
+.form-control {
+    border-radius: 0px !important;
+    width: 100% !important;
+    border: 1px solid transparent !important;
+    height: 100% !important;
+    -webkit-box-sizing: border-box !important; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box !important;    /* Firefox, other Gecko */
+    box-sizing: border-box !important;
+}
+.form-control :active {
+    #box-shadow: none;
+    /******* vo mila tadiavn n syntax **/
+}
+/*************** DATEPICKER ***************/
+.ui-datepicker {
+    font-size:14px !important;
+    border:  transparent !important;
+}
+
+.ui-datepicker a {
+
+}
+.ui-datepicker-title {
+    text-align: center !important;
+}
+.ui-datepicker tbody td {
+    #padding-right: 3% !important;
+    #border-right: 7px solid #bbb;
+    #text-align: center !important;
+}
+.ui-datepicker tbody td:last-child {
+    border-right: 0px !important;
+}
+.ui-datepicker tbody tr {
+    #border-bottom: 1px solid #bbb;
+}
+.ui-datepicker tbody tr:last-child {
+    border-bottom: 0px !important;
+}
+.ui-datepicker-calendar .ui-state-active {
+    background: #3b9ff4 !important;
+}
+
+.ui-datepicker-calendar .ui-state-hover {
+    background: #f7f7f7 ;
+}
+
+.ui-datepicker table {
+    border: transparent !important;
+}
+.ui-datepicker table td a {
+    align-content: center !important;
+    background: transparent !important;
+    border: transparent !important;
+    padding-right: 5%;
+    padding-left: 5%;
+    width: 100%;
+    height: 100%;
+    border-radius: 50% 50% 50% 50% !important;
+    -moz-border-radius: 60%;
+    -webkit-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+
+    text-align: center !important;
+}
+.ui-datepicker-header {
+    background: transparent !important;
+    color: #909AA0 !important;
+    border-color: transparent !important;
+}
+
+.ui-datepicker-prev, .ui-datepicker-next {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    color: #1b5189;
+    text-align: center !important;
+    cursor: pointer !important;
+    #background: #000000 !important;
+
+    line-height: 600%;
+    overflow: hidden;
+}

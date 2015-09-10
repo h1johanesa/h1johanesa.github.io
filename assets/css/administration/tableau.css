@@ -1,0 +1,338 @@
+@font-face {
+    font-family: "myriad-web-pro";
+    src: url("/assets/fonts/Myriad/myriad-web-pro.ttf") format("truetype");
+}
+.container-fluid {
+    font-family: "myriad-web-pro', Consolas, serif;
+}
+a:visited {
+    text-decoration: none;
+}
+a:active {
+    text-decoration: none;
+}
+
+[class*="col-"] {
+    #background-color: lavenderblush;
+    #border: 1px solid black;
+    #border-radius: 4px;
+    #line-height: 40px;
+    #text-align: center;
+}
+.row {
+    overflow: hidden;
+}
+.row [class*="col-"]{
+    margin-bottom: -99999px;
+    padding-bottom: 99999px;
+}
+/************** NOTIFICATION ****************/
+.noti_bubble {
+    position:absolute;
+    padding:1px 2px 1px 2px;
+    background: #ffad13;
+    top: 2em;
+    right: 4em;
+    color:white;
+    font-weight:bold;
+    font-size:0.55em;
+    border-radius:50%;
+    box-shadow:1px 1px 1px gray;
+}
+/************ RECHERCHE *************/
+.search-perso {
+    margin :0 0 0 0;
+    width: 100%;
+
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;
+}
+/********** MENU GAUCHE ************/
+.menu-gauche {
+    background: #e1e3e6;
+}
+.menu-gauche-options:hover {
+    background: #ffffff;
+    color: #e1e3e6;
+}
+.menu-gauche a {
+    padding-left: 5%;
+}
+.menu-gauche ul {
+    margin: 0;
+    align-content:inherit;
+}
+.menu-gauche ul li {
+    list-style: none outside none;
+}
+
+/********* CONTENEUR *************/
+.conteneur {
+    background: #f5f5f5;
+}
+
+/********* USERS & LOGO **********/
+.users {
+    background: #223443;
+    color: #ffffff;
+    padding-top: 2%;
+}
+
+.logo-perso {
+    background: #304557;
+    color: #ffffff;
+}
+
+.disponibilite-head {
+    color: #0f5fa3;
+    margin-left: 15%
+}
+.user-name {
+    margin-left: 15%;
+    margin-top: 5%
+}
+
+.btn-dispo {
+    -webkit-border-radius: 28px;
+    -moz-border-radius: 28px;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    background: #80d55b;
+    padding: 3px 20px 3px 20px;
+    text-decoration: none;
+}
+
+.btn-dispo:hover {
+    background: #f0f3f5;
+    text-decoration: none;
+}
+
+
+
+.btn-indisponible {
+    -webkit-border-radius: 28px;
+    -moz-border-radius: 28px;
+    border-radius: 28px;
+    color: #ffffff;
+    background: #ffad13;
+    padding: 3px 20px 3px 20px;
+    text-decoration: none;
+}
+
+.btn-indisponible:hover {
+    background: #f0f3f5;
+    text-decoration: none;
+}
+
+.btn-watch {
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    color: #c1c1c1;
+    background: transparent;
+    padding: 4px 20px 4px 20px;
+    border: solid #c1c1c1 2px;
+    text-decoration: none;
+}
+
+.btn-watch:hover {
+    background: #f0f3f5;
+    text-decoration: none;
+}
+
+
+/**************** FONCTIONS & NOTIFICATIONS ***************/
+.fonctions {
+    width: 40px;
+    height: 20px;
+    color: #223443;
+    align-content: flex-start;
+    #background-color: #909AA0;
+    #font-size: 22px;
+    text-align:center;
+    padding-top: 30%;
+    #border-radius: 40%;
+    #-moz-border-radius: 50%;
+    #-webkit-border-radius: 50%;
+    #-o-border-radius: 50%;
+    #transition: all ease 0.3s;
+    #-moz-transition: all ease 0.3s;
+    #-webkit-transition: all ease 0.3s;
+    #-o-transition: all ease 0.3s;
+    #-ms-transition: all ease 0.3s;
+
+}
+
+.fonctions:hover {
+    color: #84f1c4;
+}
+/**************** TABLEAU ***********/
+.table-responsive {
+    background: #ffffff;
+    padding-top: 2%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.titre-table {
+    color: #909090;
+    font-size: large;
+    padding-top: 1%;
+    padding-bottom: 3%;
+    border-bottom: 1px solid #dadada;
+
+}
+.table-responsive table tr.spaced-row > td  {
+    padding-top: 3%;
+    padding-bottom: 3% ;
+}
+.btn-consulter {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    color: #6fceff;
+    font-weight: 400;
+    background: transparent;
+    padding: 3% 20% 3% 20%;
+    border: solid #6fceff 2px;
+    text-decoration: none;
+}
+
+.btn-consulter:hover {
+    background: #3cb0fd;
+    text-decoration: none;
+}
+
+.dispo-date {
+    color : #ffad13;
+}
+.dispo-titre {
+    color : #909090;
+    #font-style: oblique;
+    font-weight: bold;
+}
+.dispo-ligne {
+    display: block;
+}
+/********** ACTIVITES *****************/
+.activites-list {
+    #background: #ffffff;
+    padding: 2%;
+
+}
+.activites-list h4 {
+    font-size: large;
+
+}
+.activites-list [class*="col-"] {
+    background: #ffffff;
+    padding-top: 2%;
+
+}
+.activites-titre {
+    font-size: large;
+}
+/********** LISTE RECUS **************/
+.recus-list {
+    padding: 2%;
+    margin: 2%;
+
+}
+.recus-list [class*="col-"] {
+    background: #ffffff;
+    border: 4px solid #f5f5f5 ;
+    #text-align: center;
+}
+
+.tjm {
+    display: block;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    font-weight: bold;
+    color: #909090;
+}
+/************ CLOSE BOUTTON ****************/
+.close {
+    font-size: 35px !important;
+    font-weight: normal !important;
+}
+
+
+/********* PUBLICATION ECHEANCE - AGENDA*********/
+
+.agenda-dashboard {
+    padding: 8% 3% 5% 3% ;
+    text-align: center;
+}
+.publication-ec-a {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.publication-echeances {
+    padding: 3%;
+    text-align: center;
+}
+.content-white {
+    background: #ffffff;
+    padding: 8% 0 10% 0;
+}
+
+.entretien-nb {
+    border-top: 2px solid #f5f5f5 ;
+    margin-top: 1%;
+    padding-top: 5%;
+}
+
+/************** FOOTER PEROS *******/
+.pied-perso {
+    #font-size: .70em;
+    padding: 3%;
+}
+.content-bordered {
+    box-sizing: border-box;
+    border-top: 1px solid #cccccc;
+}
+.pied-perso a {
+    color: #cccccc;
+}
+.pied-perso a:hover {
+    text-decoration: none;
+    color: #6fceff;
+}
+.pied-c {
+    color: #cccccc;
+
+}
+.pied-c a {
+    color: #cccccc;
+}
+.pied-c a:hover {
+    text-decoration: none;
+    color: #6fceff;
+}
+/************ TEXT COLORATION **************/
+.text-blue {
+    color: #2b669a;
+}
+
+.calendar-logo {
+    width: 40px;
+    height: 40px;
+    color: #909aa0;
+    #background-color: #909AA0;
+    #font-size: 22px;
+    #text-align:center;
+    #padding-top: 12px;
+   #border-radius: 40%;
+    #-moz-border-radius: 50%;
+    #-webkit-border-radius: 50%;
+    #-o-border-radius: 50%;
+    #transition: all ease 0.3s;
+    #-moz-transition: all ease 0.3s;
+    #-webkit-transition: all ease 0.3s;
+    #-o-transition: all ease 0.3s;
+    #-ms-transition: all ease 0.3s;
+
+}
